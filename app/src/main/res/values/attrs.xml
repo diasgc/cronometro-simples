@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--patch to API32 M3 COLORS-->
+    <attr name="colorInversePrimary" format="reference|color" />
+    <attr name="colorShadow" format="reference|color" />
 </resources>

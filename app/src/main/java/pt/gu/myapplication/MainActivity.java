@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
                 doStartStop();
             }
         });
-        CHRONO_FORMAT.setCalendar(CALENDAR);
+        CHRONO_FORMAT.setTimeZone(TimeZone.getTimeZone("utc"));
         mHandler = new Handler(getMainLooper());
     }
 
